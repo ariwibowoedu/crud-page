@@ -15,6 +15,9 @@
   },
   "dependencies": {
     "@fontsource/poppins": "^5.2.6",
+    "axios": "^1.11.0",
+    "feather-icons": "^4.29.2",
+    "json-server": "^1.0.0-beta.3",
     "pinia": "^3.0.3",
     "vue": "^3.5.18",
     "vue-router": "^4.5.1"

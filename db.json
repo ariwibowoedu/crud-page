@@ -1,0 +1,101 @@
+{
+  "products": [
+    {
+      "id": "1937f9d5e24",
+      "name": "HD Monitor 27k",
+      "price": 35000
+    },
+    {
+      "id": "19921fe5dfb",
+      "name": "Cable Lan",
+      "price": 1200
+    },
+    {
+      "id": "19921fea018",
+      "name": "Cable USB type C",
+      "price": 2000
+    },
+    {
+      "id": "19922014fde",
+      "name": "Iphone 16 Pro",
+      "price": 12000
+    },
+    {
+      "id": "199221eb1e5",
+      "name": "USB Type c",
+      "price": 1500
+    },
+    {
+      "id": "1992222c76d",
+      "name": "Case Samsung",
+      "price": 12003
+    },
+    {
+      "id": "1992228ee03",
+      "name": "Charger 123",
+      "price": 110000
+    },
+    {
+      "id": "1992229a914",
+      "name": "Samsung BV",
+      "price": 120000
+    },
+    {
+      "id": "19922883d8b",
+      "name": "Cable Type B",
+      "price": 120000
+    },
+    {
+      "id": "1992296df00",
+      "name": "Headphone 23p",
+      "price": 15000
+    }
+  ],
+  "customers": [
+    {
+      "id": "19922f193f5",
+      "name": "hawa luhut",
+      "email": "halu@afa.co"
+    },
+    {
+      "id": "19922f21258",
+      "name": "Kumarski",
+      "email": "kiu@si.com"
+    },
+    {
+      "id": "19922f35a19",
+      "name": "Cellow",
+      "email": "cel@fe.com"
+    },
+    {
+      "id": "19922f464fe",
+      "name": "Nindy",
+      "email": "nin@d.co"
+    },
+    {
+      "id": "19922f53368",
+      "name": "Kosas",
+      "email": "kos@asd.com"
+    },
+    {
+      "id": "19922f67c93",
+      "name": "missna",
+      "email": "mis@fa.co"
+    },
+    {
+      "id": "19923ff2eff",
+      "name": "Andy",
+      "email": "adn@ra.co"
+    },
+    {
+      "id": "19923ff7772",
+      "name": "Udin sahara",
+      "email": "udm@a.cj"
+    },
+    {
+      "id": "19923ffc9a3",
+      "name": "masakin",
+      "email": "mas@f.co"
+    }
+  ]
+}
