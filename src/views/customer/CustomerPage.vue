@@ -124,6 +124,7 @@ onMounted(() => {
         :items="store.paginatedItems"
         :headers="['Id', 'Name', 'Email']"
         :fields="['id', 'name', 'email']"
+        :loading="store.loading"
       >
         <template #options="{ item }">
           <div class="flex items-center gap-2">

@@ -1,7 +1,10 @@
 import { computed, ref } from "vue";
 import api from '@/services/api'
+import { useToast } from '@/composables/useToast'
 
 export function useCrud(endpoint) {
+
+    const { showToast } = useToast()
     const items = ref([])
     const loading = ref(false)
     const error = ref(null)
@@ -20,6 +23,7 @@ export function useCrud(endpoint) {
         } catch (err) {
             error.value = err
             console.log("failed to fetch data")
+            showToast("Failed to fetch data. Call the authority.", "error")
         } finally {
             loading.value = false
         }
@@ -31,6 +35,7 @@ export function useCrud(endpoint) {
             return res.data
         } catch (err) {
             error.value = err
+            showToast("error to fetch data", "error")
         }
     }
 
